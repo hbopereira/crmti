@@ -29,12 +29,12 @@
   },
   "engines": {
     "node": "10.16.3",
-    "npm": "6.9.0"
-  },
-  "scripts": {
-    "start": "serve -s build",
-    "heroku-postbuild": "npm run build"
-  },
+    "yarn": "1.19.0"
+},
+"scripts": {
+  "start": "node index.js",
+  "heroku-postbuild": "yarn run build"
+},
   "eslintConfig": {
     "extends": "react-app"
   },
