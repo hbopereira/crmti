@@ -29,7 +29,7 @@
   },
  
   "scripts": {
-    "start": "node index.js",
+    "start": "serve -s build",
     "heroku-postbuild": "yarn run build"
   },
   "eslintConfig": {
