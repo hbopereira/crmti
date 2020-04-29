@@ -33,7 +33,7 @@
 },
 "scripts": {
   "start": "node index.js",
-  "heroku-postbuild": "yarn run build"
+  "heroku-postbuild": "npm run build"
 },
   "eslintConfig": {
     "extends": "react-app"
