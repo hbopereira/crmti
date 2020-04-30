@@ -32,7 +32,9 @@
     "npm":"6.9.0"
 },
 "scripts": {
-  "start": "node index.js",
+  "dev": "react-scripts start",
+  "start": "serve -s build",
+  "build": "react-scripts build",
   "heroku-postbuild": "npm run build"
 },
   "eslintConfig": {
