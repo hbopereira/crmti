@@ -183,7 +183,7 @@ export default function ListarEvento({history}) {
       }).catch(() => {
          alert("Sua sessão expirou");
          localStorage.clear();
-         history.push('/');
+         history.push('/login');
       })
 
    }
