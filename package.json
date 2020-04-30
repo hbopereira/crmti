@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "10.16.3",
-    "npm": "6.9.0"
+    "yarn": "1.19.0"
   },
   "dependencies": {
     "@date-io/date-fns": "1.x",

@@ -92,7 +92,7 @@ export default function ListarAtendido({ history }) {
       }).catch(() => {
          alert("Sua sessão expirou");
          localStorage.clear();
-         history.push('/login');
+         history.push('/');
       })
 
    }
