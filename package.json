@@ -35,9 +35,7 @@
     "react-scripts": "1.0.7"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
+    "start": "node index.js",
     "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
